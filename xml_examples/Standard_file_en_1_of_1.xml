@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed>
+  <Product>
+    <CustomerSKUID><![CDATA[4103027]]></CustomerSKUID>
+    <INTSKUID>14394230</INTSKUID>
+    <ManufacturerPN><![CDATA[006R03197]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <Identifiers>
+      <UNSPSC>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
+      </UNSPSC>
+    </Identifiers>
+    <DistributorPNs>
+      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[14394230]]></DistributorPN>
+      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R03197]]></DistributorPN>
+    </DistributorPNs>
+    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
+    <ProductLifeCycle>
+      <CreationDate>2014-09-03</CreationDate>
+      <LastRequestDate>2020-11-30</LastRequestDate>
+      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
+      <isPartial>false</isPartial>
+      <Lifecycle>
+        <IsObsolete>false</IsObsolete>
+      </Lifecycle>
+    </ProductLifeCycle>
+    <Categorization>
+      <BasicCategorization>
+        <Class ClassCode="E" isLeaf="false">
+          <ClassName LanguageCode="en"><![CDATA[Output Devices]]></ClassName>
+          <Category CategoryCode="EI" isLeaf="true">
+            <CategoryName LanguageCode="en"><![CDATA[Printer Consumables]]></CategoryName>
+          </Category>
+        </Class>
+      </BasicCategorization>
+      <AdvancedCategorization>
+        <Version VersionID="64" VersionName="ACC 20.8" SourceID="1" SourceDescription="Alternative INT Categorization" ReleaseDate="2020-08-12 00:00:00" isLatest="true">
+          <Category CategoryCode="10030402" CategoryKey="194" Level="4" ParentCategoryCode="100304" isLeaf="true" Order="161" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Toner Cartridges]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables > Toner Cartridges]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="100304" CategoryKey="35" Level="3" ParentCategoryCode="1003" isLeaf="false" Order="159" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printer Consumables]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="1003" CategoryKey="7" Level="2" ParentCategoryCode="10" isLeaf="false" Order="118" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printers & Scanners]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="10" CategoryKey="1" Level="1" isLeaf="false" Order="1" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Hardware]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware]]></Breadscrumbs>
+            </Reference>
+          </Category>
+        </Version>
+      </AdvancedCategorization>
+    </Categorization>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - Extended Yield - black - toner cartridge (alternative for: HP CB436A)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Extended Yield - black - compatible - toner cartridge - for HP LaserJet M1522n MFP, M1522nf MFP, P1505, P1505n]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+    <ProductAttributes>
+      <AttributeGroup GroupID="G00063">
+        <GroupName>
+          <Name LanguageCode="en"><![CDATA[Header]]></Name>
+        </GroupName>
+        <Attribute AttributeID="T00606">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Brand"><![CDATA[Brand]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="1" isParametric="true" isComparable="false" />
+          <Value ValueID="K361788">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+        <Attribute AttributeID="T00600">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Product Line"><![CDATA[Product Line]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="2" isParametric="true" isComparable="false" />
+          <Value ValueID="P14078">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+      </AttributeGroup>
+    </ProductAttributes>
+  </Product>
+  <Product>
+    <CustomerSKUID><![CDATA[4103026]]></CustomerSKUID>
+    <INTSKUID>14394229</INTSKUID>
+    <ManufacturerPN><![CDATA[006R03196]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <Identifiers>
+      <UNSPSC>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
+      </UNSPSC>
+    </Identifiers>
+    <DistributorPNs>
+      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[14394229]]></DistributorPN>
+      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R03196]]></DistributorPN>
+    </DistributorPNs>
+    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
+    <ProductLifeCycle>
+      <CreationDate>2014-09-03</CreationDate>
+      <LastRequestDate>2020-11-30</LastRequestDate>
+      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
+      <isPartial>false</isPartial>
+      <Lifecycle>
+        <IsObsolete>false</IsObsolete>
+      </Lifecycle>
+    </ProductLifeCycle>
+    <Categorization>
+      <BasicCategorization>
+        <Class ClassCode="E" isLeaf="false">
+          <ClassName LanguageCode="en"><![CDATA[Output Devices]]></ClassName>
+          <Category CategoryCode="EI" isLeaf="true">
+            <CategoryName LanguageCode="en"><![CDATA[Printer Consumables]]></CategoryName>
+          </Category>
+        </Class>
+      </BasicCategorization>
+      <AdvancedCategorization>
+        <Version VersionID="64" VersionName="ACC 20.8" SourceID="1" SourceDescription="Alternative INT Categorization" ReleaseDate="2020-08-12 00:00:00" isLatest="true">
+          <Category CategoryCode="10030402" CategoryKey="194" Level="4" ParentCategoryCode="100304" isLeaf="true" Order="161" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Toner Cartridges]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables > Toner Cartridges]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="100304" CategoryKey="35" Level="3" ParentCategoryCode="1003" isLeaf="false" Order="159" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printer Consumables]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="1003" CategoryKey="7" Level="2" ParentCategoryCode="10" isLeaf="false" Order="118" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printers & Scanners]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="10" CategoryKey="1" Level="1" isLeaf="false" Order="1" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Hardware]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware]]></Breadscrumbs>
+            </Reference>
+          </Category>
+        </Version>
+      </AdvancedCategorization>
+    </Categorization>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - Extended Yield - black - toner cartridge (alternative for: HP CE505X)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Extended Yield - black - compatible - toner cartridge - for HP LaserJet P2055, P2055d, P2055dn, P2055x]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+    <ProductAttributes>
+      <AttributeGroup GroupID="G00063">
+        <GroupName>
+          <Name LanguageCode="en"><![CDATA[Header]]></Name>
+        </GroupName>
+        <Attribute AttributeID="T00606">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Brand"><![CDATA[Brand]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="1" isParametric="true" isComparable="false" />
+          <Value ValueID="K361788">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+        <Attribute AttributeID="T00600">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Product Line"><![CDATA[Product Line]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="2" isParametric="true" isComparable="false" />
+          <Value ValueID="P14078">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+      </AttributeGroup>
+    </ProductAttributes>
+  </Product>
+  <Product>
+    <CustomerSKUID><![CDATA[3264130]]></CustomerSKUID>
+    <INTSKUID>6033930</INTSKUID>
+    <ManufacturerPN><![CDATA[006R00960]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <Identifiers>
+      <UNSPSC>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
+        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
+      </UNSPSC>
+    </Identifiers>
+    <DistributorPNs>
+      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[6033930]]></DistributorPN>
+      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R00960]]></DistributorPN>
+    </DistributorPNs>
+    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
+    <ProductLifeCycle>
+      <CreationDate>2008-11-13</CreationDate>
+      <LastRequestDate>2020-11-30</LastRequestDate>
+      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
+      <isPartial>false</isPartial>
+      <Lifecycle>
+        <IsObsolete>false</IsObsolete>
+      </Lifecycle>
+    </ProductLifeCycle>
+    <Categorization>
+      <BasicCategorization>
+        <Class ClassCode="E" isLeaf="false">
+          <ClassName LanguageCode="en"><![CDATA[Output Devices]]></ClassName>
+          <Category CategoryCode="EI" isLeaf="true">
+            <CategoryName LanguageCode="en"><![CDATA[Printer Consumables]]></CategoryName>
+          </Category>
+        </Class>
+      </BasicCategorization>
+      <AdvancedCategorization>
+        <Version VersionID="64" VersionName="ACC 20.8" SourceID="1" SourceDescription="Alternative INT Categorization" ReleaseDate="2020-08-12 00:00:00" isLatest="true">
+          <Category CategoryCode="10030402" CategoryKey="194" Level="4" ParentCategoryCode="100304" isLeaf="true" Order="161" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Toner Cartridges]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables > Toner Cartridges]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="100304" CategoryKey="35" Level="3" ParentCategoryCode="1003" isLeaf="false" Order="159" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printer Consumables]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners > Printer Consumables]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="1003" CategoryKey="7" Level="2" ParentCategoryCode="10" isLeaf="false" Order="118" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Printers & Scanners]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware > Printers & Scanners]]></Breadscrumbs>
+            </Reference>
+          </Category>
+          <Category CategoryCode="10" CategoryKey="1" Level="1" isLeaf="false" Order="1" isOptional="false" isObsolete="false" isPrimary="true">
+            <Reference LanguageCode="en">
+              <CategoryName><![CDATA[Hardware]]></CategoryName>
+              <Breadscrumbs><![CDATA[Hardware]]></Breadscrumbs>
+            </Reference>
+          </Category>
+        </Version>
+      </AdvancedCategorization>
+    </Categorization>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - black - toner cartridge (alternative for: HP Q5949A)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Black - compatible - toner cartridge - for HP LaserJet 1160, 1160Le, 1320, 1320n, 1320nw, 1320t, 1320tn, 3390, 3392]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+    <ProductAttributes>
+      <AttributeGroup GroupID="G00063">
+        <GroupName>
+          <Name LanguageCode="en"><![CDATA[Header]]></Name>
+        </GroupName>
+        <Attribute AttributeID="T00606">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Brand"><![CDATA[Brand]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="1" isParametric="true" isComparable="false" />
+          <Value ValueID="K361788">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+        <Attribute AttributeID="T00600">
+          <AttributeName>
+            <Name LanguageCode="en" AlternativeSearchAttributeName="Product Line"><![CDATA[Product Line]]></Name>
+          </AttributeName>
+          <AlternativeSearch isRecommended="true" DisplayOrder="2" isParametric="true" isComparable="false" />
+          <Value ValueID="P14078">
+            <Value>
+              <ValueName LanguageCode="en"><![CDATA[ManName-555]]></ValueName>
+            </Value>
+          </Value>
+        </Attribute>
+      </AttributeGroup>
+    </ProductAttributes>
+  </Product>
+</Feed>
