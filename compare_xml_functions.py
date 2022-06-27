@@ -1,5 +1,5 @@
 from lxml import etree
-from xpath_variables import *
+
 
 
 def add_list_to_list_of_lists(list_of_lists, list_name):
@@ -56,7 +56,7 @@ def create_files_dict(input_file_name_, langs_, folder_):
     return files_dict_
 
 
-def compare_xml_files_by_nodes(file_template_, langs_, folder_):
+def compare_xml_files_by_nodes(file_template_, langs_, folder_, xpath_nodes_):
     files_dict = create_files_dict(file_template_, langs_, folder_)
-    joined_list = count_nodes_many_files(files_dict, xpath_nodes)
-    compare_nodes(dict(zip(xpath_nodes, joined_list)))
+    joined_list = count_nodes_many_files(files_dict, xpath_nodes_)
+    compare_nodes(dict(zip(xpath_nodes_, joined_list)))
