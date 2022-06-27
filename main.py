@@ -8,6 +8,7 @@ from compare_xml_functions import *
 # two symbols: en - English, es - Spanish, etc.
 # An absolute path to folder example = r'C:\Users\user\Documents\Ixml\26167\CCS_Feed_26167_210111_0815'
 file_template = 'Standard_file_en_1_of_1'
+file_ext = '.xml'
 # The first language in langs variable list must be equal the language in file template
 langs = ('en', 'es')
 folder = r'xml_examples'
@@ -15,7 +16,10 @@ folder = r'xml_examples'
 nodes_to_compare = [
     '/Feed',
     '/Feed/Product',
-    '/Feed/Product/CustomerSKUID'
+    '/Feed/Product/CustomerSKUID',
+    '/Feed/Product/Identifiers',
+    '/Feed/Product/Identifiers/UNSPSC',
+    '/Feed/Product/Identifiers/UNSPSC/CommodityName'
 ]
 
-compare_xml_files_by_nodes(file_template, langs, folder, nodes_to_compare)
+compare_xml_files_by_nodes(file_template, langs, folder, nodes_to_compare, file_ext)

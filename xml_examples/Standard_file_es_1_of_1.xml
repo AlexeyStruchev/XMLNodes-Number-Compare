@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Feed>
   <Product>
-    <!--<CustomerSKUID><![CDATA[4103027]]></CustomerSKUID>-->
+    <CustomerSKUID><![CDATA[4103027]]></CustomerSKUID>
     <INTSKUID>14394230</INTSKUID>
     <ManufacturerPN><![CDATA[006R03197]]></ManufacturerPN>
     <Manufacturer>
@@ -112,7 +112,7 @@
     </ProductAttributes>
   </Product>
   <Product>
-    <!--<CustomerSKUID><![CDATA[4103026]]></CustomerSKUID>-->
+    <CustomerSKUID><![CDATA[4103026]]></CustomerSKUID>
     <INTSKUID>14394229</INTSKUID>
     <ManufacturerPN><![CDATA[006R03196]]></ManufacturerPN>
     <Manufacturer>
