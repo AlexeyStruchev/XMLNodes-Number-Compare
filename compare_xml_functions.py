@@ -1,7 +1,6 @@
 from lxml import etree
 
 
-
 def add_list_to_list_of_lists(list_of_lists, list_name):
     list_of_lists.append(list_name)
 
@@ -39,7 +38,7 @@ def compare_nodes(node_names_with_number):
     else:
         print('Number of nodes is not equal comparing to a file with "en" language: ')
         for node_path, nodes_count in result_dict.items():
-            print('\t', 'Check nodes with name: {}. Difference is: {}'.format(node_path, nodes_count))
+            print('\t', 'Check nodes with path: {}. Difference is: {}'.format(node_path, nodes_count))
 
 
 def create_files_dict(input_file_name_, langs_, folder_, file_ext_):
