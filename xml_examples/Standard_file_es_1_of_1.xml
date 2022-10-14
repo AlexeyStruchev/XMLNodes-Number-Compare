@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Feed>
   <Product>
-    <CustomerSKUID><![CDATA[4103027]]></CustomerSKUID>
     <INTSKUID>14394230</INTSKUID>
     <ManufacturerPN><![CDATA[006R03197]]></ManufacturerPN>
     <Manufacturer>
@@ -12,26 +11,6 @@
         <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
       </CustomerManufacturerName>
     </Manufacturer>
-    <Identifiers>
-      <UNSPSC>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
-      </UNSPSC>
-    </Identifiers>
-    <DistributorPNs>
-      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[14394230]]></DistributorPN>
-      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R03197]]></DistributorPN>
-    </DistributorPNs>
-    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
-    <ProductLifeCycle>
-      <CreationDate>2014-09-03</CreationDate>
-      <LastRequestDate>2020-11-30</LastRequestDate>
-      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
-      <isPartial>false</isPartial>
-      <Lifecycle>
-        <IsObsolete>false</IsObsolete>
-      </Lifecycle>
-    </ProductLifeCycle>
     <ProductName>
       <Name NameType="Product Line" NameID="P14078">
         <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
@@ -45,7 +24,6 @@
     </ProductTitle>
   </Product>
   <Product>
-    <CustomerSKUID><![CDATA[4103026]]></CustomerSKUID>
     <INTSKUID>14394229</INTSKUID>
     <ManufacturerPN><![CDATA[006R03196]]></ManufacturerPN>
     <Manufacturer>
@@ -56,26 +34,6 @@
         <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
       </CustomerManufacturerName>
     </Manufacturer>
-    <Identifiers>
-      <UNSPSC>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
-      </UNSPSC>
-    </Identifiers>
-    <DistributorPNs>
-      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[14394229]]></DistributorPN>
-      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R03196]]></DistributorPN>
-    </DistributorPNs>
-    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
-    <ProductLifeCycle>
-      <CreationDate>2014-09-03</CreationDate>
-      <LastRequestDate>2020-11-30</LastRequestDate>
-      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
-      <isPartial>false</isPartial>
-      <Lifecycle>
-        <IsObsolete>false</IsObsolete>
-      </Lifecycle>
-    </ProductLifeCycle>
     <ProductName>
       <Name NameType="Product Line" NameID="P14078">
         <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
@@ -89,7 +47,6 @@
     </ProductTitle>
   </Product>
   <Product>
-    <CustomerSKUID><![CDATA[3264130]]></CustomerSKUID>
     <INTSKUID>6033930</INTSKUID>
     <ManufacturerPN><![CDATA[006R00960]]></ManufacturerPN>
     <Manufacturer>
@@ -100,26 +57,6 @@
         <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
       </CustomerManufacturerName>
     </Manufacturer>
-    <Identifiers>
-      <UNSPSC>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103103" isDefault="true"><![CDATA[Printer or facsimile toner]]></CommodityName>
-        <CommodityName UNSPSCVersion="23.0701" UNSPSCVersionId="66" isLatest="true" CommodityCode="44103116" isDefault="false"><![CDATA[Kit for printer]]></CommodityName>
-      </UNSPSC>
-    </Identifiers>
-    <DistributorPNs>
-      <DistributorPN DistributorID="C00000" DistributorName="INT Channel"><![CDATA[6033930]]></DistributorPN>
-      <DistributorPN DistributorID="Z00192" DistributorName="ManName-555"><![CDATA[006R00960]]></DistributorPN>
-    </DistributorPNs>
-    <SKUStatus StatusCode="SHIP"><![CDATA[Product data has been shipped]]></SKUStatus>
-    <ProductLifeCycle>
-      <CreationDate>2008-11-13</CreationDate>
-      <LastRequestDate>2020-11-30</LastRequestDate>
-      <LastDeliveryDate>2020-12-04</LastDeliveryDate>
-      <isPartial>false</isPartial>
-      <Lifecycle>
-        <IsObsolete>false</IsObsolete>
-      </Lifecycle>
-    </ProductLifeCycle>
     <ProductName>
       <Name NameType="Product Line" NameID="P14078">
         <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
