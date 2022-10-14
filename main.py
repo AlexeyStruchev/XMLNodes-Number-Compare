@@ -11,7 +11,7 @@ from compare_xml_functions import compare_xml_files_by_nodes
 
 file_template = 'Standard_file_en_1_of_1'
 file_ext = '.xml'
-langs = ('en', 'es')  # The first language in langs variable list must be equal the language in file template
+langs = ('en', 'es', 'sw')  # The first language in langs variable list must be equal the language in file template
 folder = r'xml_examples'
 # Nodes which are going to be compared
 nodes_to_compare = \
@@ -21,9 +21,13 @@ nodes_to_compare = \
         '/Feed/Product/INTSKUID',
         '/Feed/Product/ManufacturerPN',
         '/Feed/Product/Manufacturer',
+        '/Feed/Product/Manufacturer/INTManufacturerName',
+        '/Feed/Product/Manufacturer/INTManufacturerName/Value',
         '/Feed/Product/ProductName',
-        '/Feed/Product/ProductName',
-        '/Feed/Product/ProductTitle'
+        '/Feed/Product/ProductName/Name',
+        '/Feed/Product/ProductName/Name/Value',
+        '/Feed/Product/ProductTitle',
+        '/Feed/Product/ProductTitle/ProductTitle/Title'
     ]
 
 compare_xml_files_by_nodes(file_template, langs, folder, nodes_to_compare, file_ext)

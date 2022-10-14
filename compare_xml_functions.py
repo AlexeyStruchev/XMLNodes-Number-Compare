@@ -34,19 +34,19 @@ def compare_nodes(node_names_with_number):
             if num != node[0]:
                 result_dict.update({node_name: node})
     if result_dict == {}:
-        print('\n', 'All downloads are equal! Nothing to compare!')
+        print('\n', 'Xml nodes number is equal in provided files!')
     else:
         print('Number of nodes is not equal comparing to a file with "en" language: ')
         for node_path, nodes_count in result_dict.items():
-            print('\t', 'Check nodes with path: {}. Difference is: {}'.format(node_path, nodes_count))
+            print('\t', 'Check nodes with path: {}. The difference per file is: {}'.format(node_path, nodes_count))
 
 
 def create_files_dict(input_file_name_, langs_, folder_, file_ext_):
     files_dict_ = {}
-    start_index = input_file_name_.find('_' + langs_[0] + '_') + 1
-    end_index = start_index + 2
+    start_lang_index = input_file_name_.find('_' + langs_[0] + '_') + 1
+    end_lang_index = start_lang_index + 2
     for lang in langs_:
-        file_name = input_file_name_[0:start_index] + lang + input_file_name_[end_index:]
+        file_name = input_file_name_[0:start_lang_index] + lang + input_file_name_[end_lang_index:]
         file_path = folder_ + '\\' + file_name + file_ext_
         files_dict_.update({lang: file_path})
     return files_dict_

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed>
+  <Product>
+    <INTSKUID>14394230</INTSKUID>
+    <ManufacturerPN><![CDATA[006R03197]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - Extended Yield - black - toner cartridge (alternative for: HP CB436A)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Extended Yield - black - compatible - toner cartridge - for HP LaserJet M1522n MFP, M1522nf MFP, P1505, P1505n]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+  </Product>
+  <Product>
+    <INTSKUID>14394229</INTSKUID>
+    <ManufacturerPN><![CDATA[006R03196]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - Extended Yield - black - toner cartridge (alternative for: HP CE505X)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Extended Yield - black - compatible - toner cartridge - for HP LaserJet P2055, P2055d, P2055dn, P2055x]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+  </Product>
+  <Product>
+    <INTSKUID>6033930</INTSKUID>
+    <ManufacturerPN><![CDATA[006R00960]]></ManufacturerPN>
+    <Manufacturer>
+      <INTManufacturerName INTManufacturerID="Z00192">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </INTManufacturerName>
+      <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
+        <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
+      </CustomerManufacturerName>
+    </Manufacturer>
+    <ProductName>
+      <Name NameType="Product Line" NameID="P14078">
+        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
+      </Name>
+    </ProductName>
+    <ProductTitle>
+      <ProductTitle LanguageCode="en">
+        <Title TitleType="Short Product Name"><![CDATA[ManName-555 - black - toner cartridge (alternative for: HP Q5949A)]]></Title>
+        <Title TitleType="Standardized Description"><![CDATA[ManName-555 - Black - compatible - toner cartridge - for HP LaserJet 1160, 1160Le, 1320, 1320n, 1320nw, 1320t, 1320tn, 3390, 3392]]></Title>
+      </ProductTitle>
+    </ProductTitle>
+  </Product>
+</Feed>
