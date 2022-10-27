@@ -41,18 +41,20 @@ def compare_nodes(node_names_with_number):
             print('\t', 'Check nodes with path: {}. The difference per file is: {}'.format(node_path, nodes_count))
 
 
-def create_files_dict(input_file_name_, langs_, folder_, file_ext_):
-    files_dict_ = {}
-    start_lang_index = input_file_name_.find('_' + langs_[0] + '_') + 1
-    end_lang_index = start_lang_index + 2
-    for lang in langs_:
-        file_name = input_file_name_[0:start_lang_index] + lang + input_file_name_[end_lang_index:]
-        file_path = folder_ + '\\' + file_name + file_ext_
-        files_dict_.update({lang: file_path})
-    return files_dict_
+class File:
+    @staticmethod
+    def create_files_dict(input_file_name_, langs_, folder_, file_ext_):
+        files_dict_ = {}
+        start_lang_index = input_file_name_.find('_' + langs_[0] + '_') + 1
+        end_lang_index = start_lang_index + 2
+        for lang in langs_:
+            file_name = input_file_name_[0:start_lang_index] + lang + input_file_name_[end_lang_index:]
+            file_path = folder_ + '\\' + file_name + file_ext_
+            files_dict_.update({lang: file_path})
+        return files_dict_
 
 
 def compare_xml_files_by_nodes(file_template_, langs_, folder_, nodes_, file_extension_):
-    files_dict = create_files_dict(file_template_, langs_, folder_, file_extension_)
+    files_dict = File.create_files_dict(file_template_, langs_, folder_, file_extension_)
     nodes_count = count_nodes_many_files(files_dict, nodes_)
     compare_nodes(dict(zip(nodes_, nodes_count)))
