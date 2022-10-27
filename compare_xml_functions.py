@@ -1,11 +1,11 @@
 from lxml import etree
 
 
-def add_list_to_list_of_lists(list_of_lists, list_name):
+def add_list_to_list_of_lists(list_of_lists: list, list_name: list):
     list_of_lists.append(list_name)
 
 
-def count_nodes(path_to_file_with_lang, node_path, united_list):
+def count_nodes(path_to_file_with_lang: str, node_path: str, united_list: list):
     # make united list by different languages
     nodes_in_file = []
     for lang, path_to_file_ in path_to_file_with_lang.items():
@@ -19,14 +19,14 @@ def count_nodes(path_to_file_with_lang, node_path, united_list):
     add_list_to_list_of_lists(united_list, nodes_in_file)
 
 
-def count_nodes_many_files(langs_files_dict, nodes_):
+def count_nodes_many_files(langs_files_dict: dict, nodes_: list):
     joined_list_ = []
     for node in nodes_:
         count_nodes(langs_files_dict, node, joined_list_)
     return joined_list_
 
 
-def compare_nodes(node_names_with_number):
+def compare_nodes(node_names_with_number: dict):
     result_dict = {}
     for node_name, node in list(node_names_with_number.items()):
         for num in node:
@@ -43,7 +43,7 @@ def compare_nodes(node_names_with_number):
 
 class File:
     @staticmethod
-    def create_files_dict(input_file_name_, langs_, folder_, file_ext_):
+    def create_files_dict(input_file_name_: str, langs_: tuple, folder_: str, file_ext_: str):
         files_dict_ = {}
         start_lang_index = input_file_name_.find('_' + langs_[0] + '_') + 1
         end_lang_index = start_lang_index + 2
@@ -54,7 +54,7 @@ class File:
         return files_dict_
 
 
-def compare_xml_files_by_nodes(file_template_, langs_, folder_, nodes_, file_extension_):
+def compare_xml_files_by_nodes(file_template_: str, langs_: tuple, folder_: str, nodes_: list, file_extension_: str):
     files_dict = File.create_files_dict(file_template_, langs_, folder_, file_extension_)
     nodes_count = count_nodes_many_files(files_dict, nodes_)
     compare_nodes(dict(zip(nodes_, nodes_count)))
