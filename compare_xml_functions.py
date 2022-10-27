@@ -5,7 +5,7 @@ def add_list_to_list_of_lists(list_of_lists: list, list_name: list):
     list_of_lists.append(list_name)
 
 
-def count_nodes(path_to_file_with_lang: str, node_path: str, united_list: list):
+def count_nodes(path_to_file_with_lang: dict, node_path: str, united_list: list):
     # make united list by different languages
     nodes_in_file = []
     for lang, path_to_file_ in path_to_file_with_lang.items():
