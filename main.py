@@ -7,7 +7,7 @@ and place xml files there.
 A file template is a file name with language inside the name. Language can be in any place of the file and consists of
 two symbols: en - English, es - Spanish, etc. """
 
-from compare_xml_functions import compare_xml_files_by_nodes
+from compare_xml_functions import Comparer
 
 file_template = 'Standard_file_en_1_of_1'
 file_ext = '.xml'
@@ -30,4 +30,4 @@ nodes_to_compare = \
         '/Feed/Product/ProductTitle/ProductTitle/Title'
     ]
 
-compare_xml_files_by_nodes(file_template, langs, folder, nodes_to_compare, file_ext)
+Comparer.compare_xml_files_by_nodes(file_template, langs, folder, nodes_to_compare, file_ext)
