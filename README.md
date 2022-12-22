@@ -9,6 +9,6 @@ a different language (or languages).</p>
 There is a need to check if the number of nodes is the same in these files because a system which prepares them
 can have defects.</p>
 <p>If there are a lot of products in a file and there are a lot of nodes of third level manual counting is quite difficult.</p>
-<p>In this case this utility helps to perform fast automated comparison.</p> 
+<p>In this case this utility helps to perform a fast automated comparison.</p> 
 <p>The utility works with at least 2 files with different languages and also can work with many files.</p>
 <p>There is a message in terminal is printed with path to nodes where there is a different number of nodes</p>
