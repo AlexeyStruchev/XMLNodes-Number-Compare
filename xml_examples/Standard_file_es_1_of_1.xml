@@ -5,7 +5,6 @@
     <ManufacturerPN><![CDATA[006R03197]]></ManufacturerPN>
     <Manufacturer>
       <INTManufacturerName INTManufacturerID="Z00192">
-        <Value LanguageCode="en"><![CDATA[ManName-555]]></Value>
       </INTManufacturerName>
       <CustomerManufacturerName CustomerManufacturerID="F00007" CustomerManufacturerCode="XHP">
         <Value><![CDATA[ManName-555 H-P Compatibles]]></Value>
