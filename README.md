@@ -1,7 +1,7 @@
 ## XMLNodes Number Compare
 
 <p>Compare XML nodes number in a xml file (or files) with a product description in English with file (or files) in
-a different language (or languages). 
+a different language (or languages).</p> 
 <p>Let there be a xml file with a product description.</p> 
 <p>The structure of the file is Feed / Product / "Nodes of third level". Assume that there can be many nodes of third level.</p> 
 <p>In turn there can be many child levels of third level. And one file can contain many products.</p> 
