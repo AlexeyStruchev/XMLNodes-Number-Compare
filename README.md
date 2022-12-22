@@ -18,4 +18,4 @@ In this case, this utility helps to perform a fast comparison.
 
 The utility works with at least two files with different languages and can work with many files.
 
-There is a message in terminal is printed with path to nodes where there is a different number of nodes
+There is a message in terminal is printed out if there is a different number of nodes with a path to the nodes.
